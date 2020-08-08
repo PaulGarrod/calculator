@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.background {
+    width: 90%;
+    height: 550px;
+    background-image: url(https://images.unsplash.com/photo-1557672211-0741026eacfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    margin: 30px auto;
+}
+
+#calculator {
+    width: 320px;
+    height: 520px;
+    background-color: white;
+    margin: auto;
+    top: 15px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+#result {
+    height: 120px;
+}
+
+#keyboard {
+    height: 400px;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: grey;
+}
+
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    padding-top: 5px;
+    font-size: 30px;
+    color: black;
+}
+
+.number, .operator, .blank {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    font-weight: bold;
+    border-radius: 50%;
+    border-color: rgba(0, 0, 0, 0.1);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.number, .blank {
+    background-color: white;
+    font-size: 20px;
+}
+
+.number, .operator {
+    cursor: pointer;
+}
+
+.operator:active, .number:active{
+    font-size: 13px;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: pink;
+}
+
+button:nth-child(8){
+    font-size: 20px;
+    background-color: pink;
+}
+
+button:nth-child(12){
+    font-size: 20px;
+    background-color: pink;
+}
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color: pink;
+}
+
+button:nth-child(20){
+    font-size: 20px;
+    background-color: pink;
+}
